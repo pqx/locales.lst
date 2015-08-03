@@ -1,0 +1,32 @@
+{
+  "name": "locales.lst",
+  "version": "0.0.1",
+  "description": "locales.lst",
+  "main": "index.js",
+  "scripts": {
+  	"test": "./node_modules/tape/bin/tape test/index.js"
+  },
+  "author": "Wang Zuo",
+  "license": "ISC",
+  "dependencies": {
+    "through2": "^2.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqx/locales.lst.git"
+  },
+  "keywords": [
+    "locales",
+    "lst"
+  ],
+  "bugs": {
+    "url": "https://github.com/pqx/locales.lst/issues"
+  },
+  "homepage": "https://github.com/pqx/locales.lst#readme",
+  "devDependencies": {
+    "tape": "^4.0.1"
+  }
+}
