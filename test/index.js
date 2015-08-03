@@ -10,15 +10,15 @@ function jsonFile(f) {
 test('samples.lst', function(t) {
   t.plan(2);
   
-  locales('./test/sample.lst', './test/builds');
+  locales('./test/sample.lst', './test/locales');
 
   setTimeout(function() {
-    t.deepEqual(jsonFile('./test/builds/en.json'), {
+    t.deepEqual(jsonFile('./test/locales/en.json'), {
       hello: 'Hello',
       world: 'World'
     });
 
-    t.deepEqual(jsonFile('./test/builds/zh.json'), {
+    t.deepEqual(jsonFile('./test/locales/zh.json'), {
       hello: '你好',
       world: '世界'
     });

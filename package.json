@@ -14,6 +14,9 @@
   "directories": {
     "test": "test"
   },
+  "bin": {
+    "locales.lst": "cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pqx/locales.lst.git"

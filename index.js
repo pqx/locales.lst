@@ -8,7 +8,6 @@ var _jsons = [];
 var _index = 0;
 var _term = null;
 
-
 module.exports = function(lst, dir) {
   var r = fs.createReadStream(lst).pipe(through2.obj(function(chunk, enc, callback) {
     var self = this;
@@ -55,4 +54,5 @@ module.exports = function(lst, dir) {
     });
   });
 
-}
+  return r;
+};
