@@ -4,11 +4,13 @@
   "description": "locales.lst",
   "main": "index.js",
   "scripts": {
-  	"test": "./node_modules/tape/bin/tape test/index.js"
+    "build": "rm -rf test/locales && ./cli.js test/sample.lst test/locales/",
+    "test": "./node_modules/tape/bin/tape test/index.js"
   },
   "author": "Wang Zuo",
   "license": "ISC",
   "dependencies": {
+    "mkdirp": "^0.5.1",
     "through2": "^2.0.0"
   },
   "directories": {
