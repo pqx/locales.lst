@@ -24,8 +24,9 @@
     "url": "git+https://github.com/pqx/locales.lst.git"
   },
   "keywords": [
-    "locales",
-    "lst"
+    "i18n",
+    "locale",
+    "list"
   ],
   "bugs": {
     "url": "https://github.com/pqx/locales.lst/issues"
